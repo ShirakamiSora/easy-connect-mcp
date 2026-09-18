@@ -1,0 +1,28 @@
+# Private design and bootstrap material
+.private/
+PRIVATE_*
+*PRIVATE_DESIGN*
+*CODEX_BOOTSTRAP*
+MCP_Gateway_详细设计文档*.docx
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+*.jks
+secrets/
+credentials/
+
+# Runtime and generated data
+logs/
+data/
+tmp/
+node_modules/
+dist/
+coverage/
+.DS_Store

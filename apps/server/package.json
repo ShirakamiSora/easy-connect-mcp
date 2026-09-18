@@ -1,0 +1,13 @@
+{
+  "name": "@easy-connect-mcp/server",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "zod": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node --import tsx src/index.ts",
+    "probe:mcp": "node --import tsx src/mcp-probe.ts"
+  }
+}

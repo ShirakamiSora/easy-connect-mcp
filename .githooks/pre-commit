@@ -1,0 +1,2 @@
+#!/bin/sh
+node scripts/verify-private-files.mjs --identity
