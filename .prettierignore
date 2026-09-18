@@ -1,3 +1,4 @@
 PRIVATE_*
 MCP_Gateway_详细设计文档*.docx
 docs/superpowers/specs/**
+*.sarif

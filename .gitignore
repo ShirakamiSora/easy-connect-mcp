@@ -25,4 +25,5 @@ tmp/
 node_modules/
 dist/
 coverage/
+*.sarif
 .DS_Store

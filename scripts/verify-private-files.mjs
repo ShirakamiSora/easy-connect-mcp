@@ -8,7 +8,7 @@ const blockedPaths = [
   /PRIVATE_DESIGN|CODEX_BOOTSTRAP/i,
   /MCP_Gateway_详细设计文档.*\.docx$/i,
   /(?:^|\/)\.env(?:\..*)?$/i,
-  /\.(?:pem|key|p12|crt|cer|jks)$/i,
+  /\.(?:pem|key|p12|crt|cer|jks|sarif)$/i,
   /(?:^|\/)(?:secrets|credentials|logs|data|tmp)(?:\/|$)/i,
 ];
 const generated = new Set([".git", "node_modules", "dist", "build", "coverage"]);
